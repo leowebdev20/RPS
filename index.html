@@ -1,1 +1,102 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+
+<body>
+
+
+
+
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="rockpaperscissors">
+      </div>
+      <div class="score-container">
+        <h4>Score</h4>
+        <p id="score">0</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="hands">
+
+        <button class="btn-circle rock-btn" id="" data-choice="rock">
+          <span class="wrapper"><img src="./images/icon-rock.svg" alt="rock"></span>
+        </button>
+
+
+        <button class="btn-circle paper-btn" id="" data-choice="paper">
+          <span class="wrapper"><img src="./images/icon-paper.svg" alt="paper"></span>
+        </button>
+
+
+        <button class="btn-circle scissors-btn" id="" data-choice="scissors">
+          <span class="wrapper"><img src="./images/icon-scissors.svg" alt="scissors"></span>
+        </button>
+
+      </div>
+
+      <div class="show-choice">
+        <div class="you">
+          <p>You Picked</p>
+          <button class="btn-circle noclick my-select">
+            <span class="wrapper wm"><img id="myS" src="" alt=""></span>
+          </button>
+        </div>
+        <div class="result">
+          <h4>You
+            <span id="win">Win</span>
+            <span id="lose">Lose</span>
+            <span id="draw">Draw!</span>
+          </h4>
+          <button class="again">Play Again</button>
+        </div>
+        <div class="house">
+          <p>The House Picked</p>
+          <button class="btn-circle noclick pc-select">
+            <span class="wrapper wp"><img id="pcS" src="" alt=""></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="rules-box">
+        <div class="rules-content">
+          <h3>RULES</h3>
+          <span class="close">&times;</span>
+          <img src="./images/image-rules.svg" alt="">
+        </div>
+      </div>
+
+
+
+
+      <button class="rules">Rules</button>
+
+
+    </main>
+
+  </div>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.github.com/leowebdev20">{ LS }</a>.
+  </div>
+</body>
+
+
+
+</html>
