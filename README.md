@@ -1,7 +1,4 @@
-# Frontend Mentor - Rock, Paper, Scissors
-
-## Welcome! 👋
-
+CIAOOOO
 ## The challenge
 
 Your challenge is to build out this Rock, Paper, Scissors game and get it looking as close to the design as possible.
